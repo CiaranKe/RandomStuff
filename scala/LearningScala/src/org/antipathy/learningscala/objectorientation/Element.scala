@@ -1,42 +1,38 @@
 package org.antipathy.learningscala.objectorientation
 
 abstract class Element {
-  def contents : Array[String] /* = {no implmentation == abstract} */
+  def contents: Array[String]
+  def width: Int = contents(0).length
   def height: Int = contents.length
-  def width: Int = if (height == 0) 0 else contents(0).length
-
-  /* ++ concats two arrays */
-  def above(that : Element) = {
+  def above(that: Element): Element = {
     val this1 = this widen that.width
-    val that1 = this widen this.width
+    val that1 = that widen this.width
     Element.elem(this1.contents ++ that1.contents)
   }
-
-  def beside(that : Element) = {
+  def beside(that: Element): Element = {
     val this1 = this heighten that.height
     val that1 = that heighten this.height
-    Element.elem(for((line1, line2) <- this1.contents zip that1.contents) yield line1 + line2)
+    Element.elem(
+      for ((line1, line2) <- this1.
+      contents zip that1.contents)
+      yield line1 + line2)
   }
-
-  def widen(w :Int): Element = {
-    if (w <= width) {
-      this
-    } else {
-      val left = Element.elem(' ', (w - width) /2, height)
-      val right = Element.elem(' ', (w - width - left.width), height)
+  def widen(w: Int): Element =
+    if (w <= width) this
+    else {
+      val left = Element.elem(' ', (w - width)
+        / 2, height)
+      var right = Element.elem(' ', w - width - left.width, height)
       left beside this beside right
     }
-  }
-
-  def heighten(h : Int) : Element = {
-    if (h <= height) {
-      this
-    } else {
-      val top = Element.elem(' ', width, (h - height)/2)
-      val bottom = Element.elem(' ', width, (h - height - top.height))
-      top above this above bottom
+  def heighten(h: Int): Element =
+    if (h <= height) this
+    else {
+      val top = Element.elem(' ', width, (h - height)
+        / 2)
+      var bot = Element.elem(' ', width, h - height - top.height)
+      top above this above bot
     }
-  }
   override def toString = contents mkString "\n"
 }
 
@@ -71,35 +67,32 @@ object Element {
   }
 }
 
-object spiral extends App {
+object spiral {
   val space = Element.elem(" ")
   val corner = Element.elem("+")
-
-  def spiral(nEdges : Int, direction : Int) : Element = {
-    if (nEdges == 1) {
+  def spiral(nEdges: Int, direction: Int): Element = {
+    if (nEdges == 1)
       Element.elem("+")
-    }
     else {
-      val sp = spiral(nEdges -1, (direction + 3) % 4)
+      val sp = spiral(nEdges - 1,
+      (direction + 3) % 4)
       def verticalBar = Element.elem('|', 1, sp.height)
-      def horizontalBar = Element.elem('-', sp.width, 1)
-      if (direction == 0) {
+      def horizontalBar = Element.elem('-',
+      sp.width, 1)
+      if (direction == 0)
         (corner beside horizontalBar) above (sp beside space)
-      }
-      else if (direction == 1) {
+      else if (direction == 1)
         (sp above space) beside (corner above verticalBar)
-      }
-      else if (direction == 2) {
+      else if (direction == 2)
         (space beside sp) above (horizontalBar beside corner)
-      }
-      else {
+      else
         (verticalBar above corner) beside (space above sp)
-      }
     }
   }
-
-  val nSides = 6 //args(0).toInt
-  println(spiral(nSides, 0))
+  def main(args: Array[String]) {
+    val nSides = 11 //args(0).toInt
+    println(spiral(nSides, 0))
+  }
 }
 
 
