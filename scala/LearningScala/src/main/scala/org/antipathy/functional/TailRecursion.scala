@@ -52,11 +52,11 @@ object TailRecursion {
     //Note the differences in the stack traces
     //tail recursion
     try {exceptionExample(10, tailRecursive = true)} catch {
-      case ex  => ex.printStackTrace
+      case ex : Throwable  => ex.printStackTrace
     }
     // no tail recursion
     try {exceptionExample(10)} catch {
-      case ex  => ex.printStackTrace
+      case ex : Throwable  => ex.printStackTrace
     }
 
     /* optimisation can be switched off by passing
