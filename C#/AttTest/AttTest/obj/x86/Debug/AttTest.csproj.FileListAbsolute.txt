@@ -1,0 +1,5 @@
+c:\users\ciaranke\documents\visual studio 2010\Projects\AttTest\AttTest\bin\Debug\AttTest.exe
+c:\users\ciaranke\documents\visual studio 2010\Projects\AttTest\AttTest\bin\Debug\AttTest.pdb
+c:\users\ciaranke\documents\visual studio 2010\Projects\AttTest\AttTest\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\ciaranke\documents\visual studio 2010\Projects\AttTest\AttTest\obj\x86\Debug\AttTest.exe
+c:\users\ciaranke\documents\visual studio 2010\Projects\AttTest\AttTest\obj\x86\Debug\AttTest.pdb

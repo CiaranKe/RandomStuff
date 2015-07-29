@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!--<?xml-stylesheet type="text/xsl" href="spec.xsl"?>-->
+<coursespec>
+	<title>DEVELOPING SOLUTIONS WITH XML AND XSL</title>
+	<codeandversion>XML Version 1.00</codeandversion>
+	<objectives>This two-day course introduces participants to the benefits of building application solutions on an XML based framework. In doing so it familiarises them with the skills and techniques required to create, manipulate and display XML. The course focus is on using XML in a Web based environment but the techniques covered can also be applied to other areas such as A2A and B2B integration.Extensive fully worked examples are used to illustrate the points raised in the course, and to provide hands-on experience. These examples will be available on disk for participants to take away, together with a comprehensive course manual.</objectives>
+	<prerequisits>The course is aimed at those with experience in HTML and Java Script programming. Exposure to Cascading Style Sheets is an advantage.This course is aimed at system developers, programmers and designers, and managers requiring information on XML development.</prerequisits>
+	<links>
+		<relatedcourses>schedulenet.xml</relatedcourses>
+		<pdfformat>XML.pdf</pdfformat>
+	</links>
+	<firstrowdetails>
+		<topicheading>Introduction</topicheading>
+		<topicdetails>The Origins of XML - XML as a Message Passing Archictecture - XML on the Web - Whats Wrong with HTML - How does XML Help.</topicdetails>
+		<topicheading>XML Documents</topicheading>
+		<topicdetails>Well Formed XML Syntax - XML Document Structure - Elements, Attributes and Entities - Validating an XML Document - The Role of Schemas and Document Template Definitions (DTD) - Constructing your own Schemas - Constructing you own DTD - Understanding Namespaces - Namespace Extensibility Benefits.</topicdetails>
+		<topicheading>XML Document Object Model (DOM)</topicheading>
+		<topicdetails>Understanding the XML DOM - Interfacing with XML through the DOM - Constructing your own XML using the DOM - Traversing XML Documents using the DOM - Using DOM on the Client and Server.</topicdetails>
+		<topicheading>Displaying XML</topicheading>
+		<topicdetails>Separating Presentation from Data - Rendering XML using Cascading Style Sheets (CSS) - Disadvantages of this Approach - Introduction to XSL - Working with XSL on the Client and Server.</topicdetails>
+		<topicheading>XSL Pattern Matching and Transformations</topicheading>
+		<topicdetails>Pattern Matching - Matching on Elements - Matching on Attributes -Transformations - XSL Templates - Conditional Processing with XSL -Using JavaScript in XSL Transformations - Embedding JavaScript in XSL Templates.</topicdetails>
+	</firstrowdetails>
+	<secondrowdetails>
+		<topicheading>Producing XML Documents</topicheading>
+		<topicdetails>Creating XML data on the Server - Formatting the XML on the Server - XML and ActiveX Data Objects (ADO) - XML Data Streams.</topicdetails>
+		<topicheading>Tools for use with XML</topicheading>
+		<topicdetails>A brief look at tools currently available for working with Schemas, DTD, XML Documents and XSL Style Sheets</topicdetails>
+		<topicheading>Future Directions</topicheading>
+		<topicdetails>XML as an Application to Application Integration Solution - XML as a Message Passing Architecture in B2B Commerce - The BizTalk Initiative and XML.</topicdetails>
+	</secondrowdetails>
+</coursespec>

@@ -1,0 +1,5 @@
+c:\users\ciaranke\documents\visual studio 2010\Projects\WebServices\WebServices\obj\Debug\ResolveAssemblyReference.cache
+c:\users\ciaranke\documents\visual studio 2010\Projects\WebServices\WebServices\bin\WebServices.dll
+c:\users\ciaranke\documents\visual studio 2010\Projects\WebServices\WebServices\bin\WebServices.pdb
+c:\users\ciaranke\documents\visual studio 2010\Projects\WebServices\WebServices\obj\Debug\WebServices.dll
+c:\users\ciaranke\documents\visual studio 2010\Projects\WebServices\WebServices\obj\Debug\WebServices.pdb

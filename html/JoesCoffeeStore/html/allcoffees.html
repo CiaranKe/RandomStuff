@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Joe's Coffee Store</title>
+    <link href="../css/layout.css" rel="stylesheet">
+    <script src="../js/dragAndDrop.js"></script>
+</head>
+<body>
+    <header>
+        <div>
+            <a class ="headerlogo" href="../index.html">
+                <img src="../images/logo.jpg">
+            </a>
+            <span id="headername">Joe's Coffee Store</span>
+        </div>
+    </header>
+    <nav class="backgroundgradient">
+        <ul>
+            <li><a class="navlink" href="../index.html">Home</a></li>
+            <li><a class="navlink" href="allcoffees.html">Our Coffees</a></li>
+            <li><a class="navlink" href="findus.html">Find us</a></li>
+            <li><a class="navlink" href="checkout.html">Checkout</a></li>
+
+        </ul>
+    </nav>
+    <div id="welcomeimage">
+        <img src="../images/coffeeheader.png">
+    </div>
+    <div id="coffeeofthemonth">
+        <img src="../images/cotm.png">
+    </div>
+    <aside id="shoppingCart">
+        <header>Shopping Cart</header>
+        <ul></ul>
+    </aside>
+    <section class="allcoffees">
+        <header class="blockheader">
+            <span>Espresso Coffee beans</span>
+        </header>
+        <article class="productarticlewide" id="coffee-1" data-price="10.00">
+            <img class="productarticlewidethumbnail" src="../images/coffee/coffee1.jpg">
+            <div class="productarticlewidecontent">
+                <header>
+                    <span class="productarticlewidename">Coffee 1</span>
+                </header>
+                <p class="productarticlewidedescription">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu eros sit amet urna ultricies rutrum sed et tellus.
+                    Mauris eget ligula erat. Sed ultricies tincidunt pharetra. Nullam vitae neque justo. Suspendisse in mattis ex.
+                    Phasellus quis tellus est. Quisque mattis metus quis blandit pellentesque. Vestibulum venenatis quam id libero venenatis rhoncus.
+                </p>
+                <p class="productarticleprice">£10</p>
+            </div>
+        </article>
+        <article class="productarticlewide" id="coffee-2" data-price="15.00">
+            <img class="productarticlewidethumbnail" src="../images/coffee/coffee1.jpg">
+            <div class="productarticlewidecontent">
+                <header>
+                    <span class="productarticlewidename">Coffee 2</span>
+                </header>
+                <p class="productarticlewidedescription">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu eros sit amet urna ultricies rutrum sed et tellus.
+                    Mauris eget ligula erat. Sed ultricies tincidunt pharetra. Nullam vitae neque justo. Suspendisse in mattis ex.
+                    Phasellus quis tellus est. Quisque mattis metus quis blandit pellentesque. Vestibulum venenatis quam id libero venenatis rhoncus.
+                </p>
+                <p class="productarticleprice">£15</p>
+            </div>
+        </article>
+        <article class="productarticlewide" id="coffee-3" data-price="20.00">
+            <img class="productarticlewidethumbnail" src="../images/coffee/coffee1.jpg">
+            <div class="productarticlewidecontent">
+                <header>
+                    <span class="productarticlewidename">Coffee 3</span>
+                </header>
+                <p class="productarticlewidedescription">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu eros sit amet urna ultricies rutrum sed et tellus.
+                    Mauris eget ligula erat. Sed ultricies tincidunt pharetra. Nullam vitae neque justo. Suspendisse in mattis ex.
+                    Phasellus quis tellus est. Quisque mattis metus quis blandit pellentesque. Vestibulum venenatis quam id libero venenatis rhoncus.
+                </p>
+                <p class="productarticleprice">£20</p>
+            </div>
+        </article>
+    </section>
+    <script>
+        document.addEventListener("DOMContentLoaded", addDnDHandlers, false);
+    </script>
+</body>
+</html>

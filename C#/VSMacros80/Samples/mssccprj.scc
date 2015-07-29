@@ -1,0 +1,5 @@
+SCC = This is a Source Code Control file
+
+[Samples.vsmacros]
+SCC_Aux_Path = "\\MOLLARI\vss\Kainos"
+SCC_Project_Name = "$/Training/VSMacros80/Samples", BXBAAAAA

@@ -1,0 +1,7 @@
+c:\users\ciaranke\documents\visual studio 2010\Projects\MVC3App\MVC3App\bin\MVC3App.dll
+c:\users\ciaranke\documents\visual studio 2010\Projects\MVC3App\MVC3App\bin\MVC3App.pdb
+c:\users\ciaranke\documents\visual studio 2010\Projects\MVC3App\MVC3App\bin\EntityFramework.dll
+c:\users\ciaranke\documents\visual studio 2010\Projects\MVC3App\MVC3App\bin\EntityFramework.xml
+c:\users\ciaranke\documents\visual studio 2010\Projects\MVC3App\MVC3App\obj\Debug\ResolveAssemblyReference.cache
+c:\users\ciaranke\documents\visual studio 2010\Projects\MVC3App\MVC3App\obj\Debug\MVC3App.dll
+c:\users\ciaranke\documents\visual studio 2010\Projects\MVC3App\MVC3App\obj\Debug\MVC3App.pdb

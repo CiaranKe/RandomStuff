@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="addTwoNumbers">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ValueOne" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ValueTwo" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="addTwoNumbersResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="addTwoNumbersResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ReturnTest">
+        <s:complexType />
+      </s:element>
+      <s:element name="ReturnTestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ReturnTestResult" type="tns:Test" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Test">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="A" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="B" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="MakeOrder">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CID" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="SV" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MakeOrderResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="MakeOrderResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HelloWorldSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="addTwoNumbersSoapIn">
+    <wsdl:part name="parameters" element="tns:addTwoNumbers" />
+  </wsdl:message>
+  <wsdl:message name="addTwoNumbersSoapOut">
+    <wsdl:part name="parameters" element="tns:addTwoNumbersResponse" />
+  </wsdl:message>
+  <wsdl:message name="ReturnTestSoapIn">
+    <wsdl:part name="parameters" element="tns:ReturnTest" />
+  </wsdl:message>
+  <wsdl:message name="ReturnTestSoapOut">
+    <wsdl:part name="parameters" element="tns:ReturnTestResponse" />
+  </wsdl:message>
+  <wsdl:message name="MakeOrderSoapIn">
+    <wsdl:part name="parameters" element="tns:MakeOrder" />
+  </wsdl:message>
+  <wsdl:message name="MakeOrderSoapOut">
+    <wsdl:part name="parameters" element="tns:MakeOrderResponse" />
+  </wsdl:message>
+  <wsdl:portType name="HelloServiceSoap">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldSoapIn" />
+      <wsdl:output message="tns:HelloWorldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="addTwoNumbers">
+      <wsdl:input message="tns:addTwoNumbersSoapIn" />
+      <wsdl:output message="tns:addTwoNumbersSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ReturnTest">
+      <wsdl:input message="tns:ReturnTestSoapIn" />
+      <wsdl:output message="tns:ReturnTestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MakeOrder">
+      <wsdl:input message="tns:MakeOrderSoapIn" />
+      <wsdl:output message="tns:MakeOrderSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="HelloServiceSoap" type="tns:HelloServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addTwoNumbers">
+      <soap:operation soapAction="http://tempuri.org/addTwoNumbers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReturnTest">
+      <soap:operation soapAction="http://tempuri.org/ReturnTest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MakeOrder">
+      <soap:operation soapAction="http://tempuri.org/MakeOrder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="HelloServiceSoap12" type="tns:HelloServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap12:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addTwoNumbers">
+      <soap12:operation soapAction="http://tempuri.org/addTwoNumbers" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReturnTest">
+      <soap12:operation soapAction="http://tempuri.org/ReturnTest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MakeOrder">
+      <soap12:operation soapAction="http://tempuri.org/MakeOrder" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="HelloService">
+    <wsdl:port name="HelloServiceSoap" binding="tns:HelloServiceSoap">
+      <soap:address location="http://localhost:50608/HelloService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="HelloServiceSoap12" binding="tns:HelloServiceSoap12">
+      <soap12:address location="http://localhost:50608/HelloService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

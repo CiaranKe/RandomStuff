@@ -1,0 +1,12 @@
+C:\Users\ciaranke\Documents\Visual Studio 2010\Projects\Calculations\TestApp\bin\Debug\TestApp.exe
+C:\Users\ciaranke\Documents\Visual Studio 2010\Projects\Calculations\TestApp\bin\Debug\TestApp.pdb
+C:\Users\ciaranke\Documents\Visual Studio 2010\Projects\Calculations\TestApp\bin\Debug\Calculations.dll
+C:\Users\ciaranke\Documents\Visual Studio 2010\Projects\Calculations\TestApp\bin\Debug\Calculations.pdb
+C:\Users\ciaranke\Documents\Visual Studio 2010\Projects\Calculations\TestApp\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\ciaranke\Documents\Visual Studio 2010\Projects\Calculations\TestApp\obj\x86\Debug\TestApp.Form1.resources
+C:\Users\ciaranke\Documents\Visual Studio 2010\Projects\Calculations\TestApp\obj\x86\Debug\TestApp.Properties.Resources.resources
+C:\Users\ciaranke\Documents\Visual Studio 2010\Projects\Calculations\TestApp\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\ciaranke\Documents\Visual Studio 2010\Projects\Calculations\TestApp\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\ciaranke\Documents\Visual Studio 2010\Projects\Calculations\TestApp\obj\x86\Debug\TestApp.exe
+C:\Users\ciaranke\Documents\Visual Studio 2010\Projects\Calculations\TestApp\obj\x86\Debug\TestApp.pdb
+C:\Users\ciaranke\Documents\Visual Studio 2010\Projects\Calculations\TestApp\bin\Debug\Calculations.xml

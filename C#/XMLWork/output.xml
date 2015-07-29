@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Now d1p1:name="your name" xmlns:d1p1="ans">
+    <time>ttt</time>
+    <date>
+        <day>dd</day>
+        <month>mmm</month>
+        <year>yyyy</year>
+    </date>
+</Now>

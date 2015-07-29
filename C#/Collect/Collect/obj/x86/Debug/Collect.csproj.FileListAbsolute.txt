@@ -1,0 +1,5 @@
+c:\users\ciaranke\documents\visual studio 2010\Projects\Collect\Collect\bin\Debug\Collect.exe
+c:\users\ciaranke\documents\visual studio 2010\Projects\Collect\Collect\bin\Debug\Collect.pdb
+c:\users\ciaranke\documents\visual studio 2010\Projects\Collect\Collect\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\ciaranke\documents\visual studio 2010\Projects\Collect\Collect\obj\x86\Debug\Collect.exe
+c:\users\ciaranke\documents\visual studio 2010\Projects\Collect\Collect\obj\x86\Debug\Collect.pdb

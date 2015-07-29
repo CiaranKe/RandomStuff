@@ -1,0 +1,5 @@
+c:\users\ciaranke\documents\visual studio 2010\Projects\MyException\MyException\bin\Debug\MyException.exe
+c:\users\ciaranke\documents\visual studio 2010\Projects\MyException\MyException\bin\Debug\MyException.pdb
+c:\users\ciaranke\documents\visual studio 2010\Projects\MyException\MyException\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\ciaranke\documents\visual studio 2010\Projects\MyException\MyException\obj\x86\Debug\MyException.exe
+c:\users\ciaranke\documents\visual studio 2010\Projects\MyException\MyException\obj\x86\Debug\MyException.pdb

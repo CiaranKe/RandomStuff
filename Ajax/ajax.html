@@ -1,0 +1,63 @@
+<html>
+<body>
+	
+	<script language="javascript" type="text/javascript">
+	<!--
+	//browser support code
+	function ajaxFunction()
+	{
+			var ajaxRequest; //Makes ajax possible
+			
+			try
+			{
+				//Opera 8.0+, Firefox, Safari
+				ajaxRequest = new XMLHttpRequest();
+			}
+			catch(e)
+			{
+				try
+				{
+					//IE
+					ajaxRequest = new ActiveXObject("Msxml2.XMLHTTP");
+				}
+				catch(e)
+				{
+					try
+					{
+						//Another IE
+						ajaxRequest = new ActiveXObject("Microsoft.XMLHTTP");
+					}
+					catch(e)
+					{	
+						//something went wrong
+						alert("Unable to load AJAX object");
+						return false;
+					}
+				}
+			}
+			
+			//process response from server 
+			//readyState stores the server's response status 
+			//this method executes on every state change
+			ajaxRequest.onreadystatechange  = function()
+			{
+				//when the server response is complete
+				if (ajaxRequest.readyState == 4)
+				{
+					//set the time on the form to the server's response
+					document.myForm.time.value = ajaxRequest.responseText;
+				}
+			}
+			//send a request to the server
+			ajaxRequest.open("GET", "ajax-example.php" + queryString , true);
+			ajaxRequest.send(null);
+	}
+	-->
+	</script>
+	
+	<form name='myForm'>
+		Name: <input type='text' onChange="ajaxFunction();" name='username' /> <br />
+		Time: <input type='text' name='time' />
+	</form>
+</body>
+</html>

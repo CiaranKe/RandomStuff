@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WebServices.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="WebServices_localhost_HelloService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:50608/HelloService.asmx</Value>
+    </Setting>
+    <Setting Name="WebServices_localhost1_Products" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:50608/Products.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

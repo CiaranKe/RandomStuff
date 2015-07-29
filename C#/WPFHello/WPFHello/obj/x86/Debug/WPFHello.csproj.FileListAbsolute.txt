@@ -1,0 +1,15 @@
+C:\Users\fluffy\Dropbox\C Sharp\WPFHello\WPFHello\bin\Debug\WPFHello.exe
+C:\Users\fluffy\Dropbox\C Sharp\WPFHello\WPFHello\bin\Debug\WPFHello.pdb
+C:\Users\fluffy\Dropbox\C Sharp\WPFHello\WPFHello\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\fluffy\Dropbox\C Sharp\WPFHello\WPFHello\obj\x86\Debug\MainWindow.baml
+C:\Users\fluffy\Dropbox\C Sharp\WPFHello\WPFHello\obj\x86\Debug\MainWindow.g.cs
+C:\Users\fluffy\Dropbox\C Sharp\WPFHello\WPFHello\obj\x86\Debug\App.g.cs
+C:\Users\fluffy\Dropbox\C Sharp\WPFHello\WPFHello\obj\x86\Debug\WPFHello_MarkupCompile.cache
+C:\Users\fluffy\Dropbox\C Sharp\WPFHello\WPFHello\obj\x86\Debug\WPFHello.g.resources
+C:\Users\fluffy\Dropbox\C Sharp\WPFHello\WPFHello\obj\x86\Debug\WPFHello.Properties.Resources.resources
+C:\Users\fluffy\Dropbox\C Sharp\WPFHello\WPFHello\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\fluffy\Dropbox\C Sharp\WPFHello\WPFHello\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\fluffy\Dropbox\C Sharp\WPFHello\WPFHello\obj\x86\Debug\WPFHello.exe
+C:\Users\fluffy\Dropbox\C Sharp\WPFHello\WPFHello\obj\x86\Debug\WPFHello.pdb
+E:\C Sharp\WPFHello\WPFHello\obj\x86\Debug\WPFHello.exe
+E:\C Sharp\WPFHello\WPFHello\obj\x86\Debug\WPFHello.pdb

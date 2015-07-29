@@ -1,0 +1,5 @@
+c:\users\ciaranke\documents\visual studio 2010\Projects\WriteMe\WriteMe\bin\Debug\WriteMe.exe
+c:\users\ciaranke\documents\visual studio 2010\Projects\WriteMe\WriteMe\bin\Debug\WriteMe.pdb
+c:\users\ciaranke\documents\visual studio 2010\Projects\WriteMe\WriteMe\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\ciaranke\documents\visual studio 2010\Projects\WriteMe\WriteMe\obj\x86\Debug\WriteMe.exe
+c:\users\ciaranke\documents\visual studio 2010\Projects\WriteMe\WriteMe\obj\x86\Debug\WriteMe.pdb

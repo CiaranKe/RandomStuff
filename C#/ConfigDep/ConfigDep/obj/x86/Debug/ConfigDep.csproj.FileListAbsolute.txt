@@ -1,0 +1,6 @@
+c:\users\ciaranke\documents\visual studio 2010\Projects\ConfigDep\ConfigDep\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\ciaranke\documents\visual studio 2010\Projects\ConfigDep\ConfigDep\bin\Debug\ConfigDep.exe
+c:\users\ciaranke\documents\visual studio 2010\Projects\ConfigDep\ConfigDep\bin\Debug\ConfigDep.pdb
+c:\users\ciaranke\documents\visual studio 2010\Projects\ConfigDep\ConfigDep\obj\x86\Debug\ConfigDep.exe
+c:\users\ciaranke\documents\visual studio 2010\Projects\ConfigDep\ConfigDep\obj\x86\Debug\ConfigDep.pdb
+c:\users\ciaranke\documents\visual studio 2010\Projects\ConfigDep\ConfigDep\bin\Debug\ConfigDep.XML

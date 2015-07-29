@@ -1,0 +1,5 @@
+c:\users\ciaranke\documents\visual studio 2010\Projects\DelegateEvents\DelegateEvents\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\ciaranke\documents\visual studio 2010\Projects\DelegateEvents\DelegateEvents\bin\Debug\DelegateEvents.exe
+c:\users\ciaranke\documents\visual studio 2010\Projects\DelegateEvents\DelegateEvents\bin\Debug\DelegateEvents.pdb
+c:\users\ciaranke\documents\visual studio 2010\Projects\DelegateEvents\DelegateEvents\obj\x86\Debug\DelegateEvents.exe
+c:\users\ciaranke\documents\visual studio 2010\Projects\DelegateEvents\DelegateEvents\obj\x86\Debug\DelegateEvents.pdb

@@ -1,0 +1,6 @@
+c:\users\ciaranke\documents\visual studio 2010\Projects\FirstLinq\FirstLinq\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\ciaranke\documents\visual studio 2010\Projects\FirstLinq\FirstLinq\bin\Debug\FirstLinq.exe
+c:\users\ciaranke\documents\visual studio 2010\Projects\FirstLinq\FirstLinq\bin\Debug\FirstLinq.pdb
+c:\users\ciaranke\documents\visual studio 2010\Projects\FirstLinq\FirstLinq\obj\x86\Debug\FirstLinq.exe
+c:\users\ciaranke\documents\visual studio 2010\Projects\FirstLinq\FirstLinq\obj\x86\Debug\FirstLinq.pdb
+c:\users\ciaranke\documents\visual studio 2010\Projects\FirstLinq\FirstLinq\bin\Debug\FirstLinq.exe.config

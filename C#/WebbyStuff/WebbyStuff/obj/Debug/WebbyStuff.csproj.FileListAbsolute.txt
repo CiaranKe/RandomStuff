@@ -1,0 +1,5 @@
+c:\users\ciaranke\documents\visual studio 2010\Projects\WebbyStuff\WebbyStuff\bin\WebbyStuff.dll
+c:\users\ciaranke\documents\visual studio 2010\Projects\WebbyStuff\WebbyStuff\bin\WebbyStuff.pdb
+c:\users\ciaranke\documents\visual studio 2010\Projects\WebbyStuff\WebbyStuff\obj\Debug\ResolveAssemblyReference.cache
+c:\users\ciaranke\documents\visual studio 2010\Projects\WebbyStuff\WebbyStuff\obj\Debug\WebbyStuff.dll
+c:\users\ciaranke\documents\visual studio 2010\Projects\WebbyStuff\WebbyStuff\obj\Debug\WebbyStuff.pdb

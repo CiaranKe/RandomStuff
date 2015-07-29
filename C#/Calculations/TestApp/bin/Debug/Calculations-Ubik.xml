@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Calculations</name>
+    </assembly>
+    <members>
+        <member name="T:Calculations.Basic">
+            <summary>
+                Basic class, doesn't do much yet
+            </summary>
+            <remarks>
+                Well, it has an add function 
+            </remarks>
+        </member>
+        <member name="M:Calculations.Basic.add(System.Int32,System.Int32)">
+            <summary>
+            Adds two integers together
+            </summary>
+            <param name="a">First integer to be added</param>
+            <param name="b">Second integer to be added</param>
+            <returns>An integer funnily enough</returns>
+            <seealso cref="N:Calculations"> </seealso>
+        </member>
+    </members>
+</doc>

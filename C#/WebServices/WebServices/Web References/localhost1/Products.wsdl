@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="getAvailibleProductsXML">
+        <s:complexType />
+      </s:element>
+      <s:element name="getAvailibleProductsXMLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getAvailibleProductsXMLResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="getAvailibleProductsXMLSoapIn">
+    <wsdl:part name="parameters" element="tns:getAvailibleProductsXML" />
+  </wsdl:message>
+  <wsdl:message name="getAvailibleProductsXMLSoapOut">
+    <wsdl:part name="parameters" element="tns:getAvailibleProductsXMLResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ProductsSoap">
+    <wsdl:operation name="getAvailibleProductsXML">
+      <wsdl:input message="tns:getAvailibleProductsXMLSoapIn" />
+      <wsdl:output message="tns:getAvailibleProductsXMLSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ProductsSoap" type="tns:ProductsSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getAvailibleProductsXML">
+      <soap:operation soapAction="http://tempuri.org/getAvailibleProductsXML" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ProductsSoap12" type="tns:ProductsSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getAvailibleProductsXML">
+      <soap12:operation soapAction="http://tempuri.org/getAvailibleProductsXML" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Products">
+    <wsdl:port name="ProductsSoap" binding="tns:ProductsSoap">
+      <soap:address location="http://localhost:50608/Products.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ProductsSoap12" binding="tns:ProductsSoap12">
+      <soap12:address location="http://localhost:50608/Products.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

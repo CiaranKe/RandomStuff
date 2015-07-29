@@ -1,0 +1,5 @@
+C:\Users\fluffy\Dropbox\C Sharp\TextHello\TextHello\bin\Debug\TextHello.exe
+C:\Users\fluffy\Dropbox\C Sharp\TextHello\TextHello\bin\Debug\TextHello.pdb
+C:\Users\fluffy\Dropbox\C Sharp\TextHello\TextHello\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\fluffy\Dropbox\C Sharp\TextHello\TextHello\obj\x86\Debug\TextHello.exe
+C:\Users\fluffy\Dropbox\C Sharp\TextHello\TextHello\obj\x86\Debug\TextHello.pdb

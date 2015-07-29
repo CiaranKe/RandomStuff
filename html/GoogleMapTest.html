@@ -1,0 +1,95 @@
+<html>
+	<head>
+		<script src="https://maps.googleapis.com/maps/api/js"></script>
+		<script src="https://code.jquery.com/jquery-2.1.1.js"></script>
+		<script>
+			var globalLat;
+			var globalLng;
+			
+			$(document).ready(function() {
+				$('#pCButton').click(function() {
+						console.log($('#postcode').val())
+						setMap($('#postcode').val());
+				});
+			});
+		
+			function initialize(lat, lng) {
+				
+				globalLat = lat;
+				globalLng = lng;
+				
+				var mapCanvas = document.getElementById('map_canvas');
+				var myLatlng = new google.maps.LatLng(lat, lng);
+				var mapOptions = {
+					center: myLatlng,
+					zoom: 18,
+					mapTypeId: google.maps.MapTypeId.HYBRID
+				}
+				var map = new google.maps.Map(mapCanvas, mapOptions)
+
+				var marker = new google.maps.Marker({
+					position: myLatlng,
+					map: map,
+					title: 'Drag to meter location',
+					draggable:true
+				});
+				
+				google.maps.event.addListener(marker, 'dragend', function(evt){
+					$('#input').text('input');
+					$('#output').show();
+					$('#markerTable').empty();
+					$('#markerTable').append($('<img>',{src:'https://maps.googleapis.com/maps/api/staticmap?center='+ globalLat+','+globalLng+'&zoom=18&size=600x600&maptype=roadmap&markers=color:green%7Clabel:Meter%7C'+marker.position.k+','+marker.position.B}));
+							
+					console.log(marker.position)
+					console.log('https://maps.googleapis.com/maps/api/staticmap?center='+ globalLat+','+globalLng+'&zoom=20&size=600x600&maptype=roadmap&markers=color:green%7Clabel:Meter%7C'+marker.position.k+','+marker.position.B)
+				});
+			}
+
+			google.maps.event.addDomListener(window, 'load', initialize);
+			
+			function setMap(postcode) {			
+				$.getJSON(
+					"http://maps.googleapis.com/maps/api/geocode/json?address=" + postcode + ",+UK&sensor=false",
+					{ajax: 'true'},
+					function (data)
+					{
+						$('#map_canvas').show();
+						$('#pCButton').hide();
+						$('#postcode').hide();
+						$('#markerTable').show();
+						$('#input').text('Drag Marker to meter location');
+						$('#input').show();
+						
+						initialize(data.results[0].geometry.location.lat,data.results[0].geometry.location.lng);
+					}
+				);
+			};
+
+			
+			
+		</script>
+		<style>
+			#map_canvas{width:600px; height:600px; display:none;}
+			#markerTable{float:left; display:none;}
+			#input{display:none;}
+			#output{display:none;}
+		</style>
+	</head>
+	
+	<body>
+		<table>
+			<tr>
+				<td colspan="2"><input type="text" id="postcode" placeholder="Enter postcode"></input> <button id="pCButton">Submit</button></td>
+			</tr>
+			<tr>
+				<td id="input">input</td>
+				<td id="output">output</td>
+			</tr>
+			<tr>
+				<td><div id="map_canvas"></div></td>
+				<td><div id="markerTable"></div></td>
+			</tr>
+		</table>
+	</body>
+</html>
+

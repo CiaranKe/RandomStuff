@@ -1,0 +1,64 @@
+﻿    body
+    {
+        background-color:#0099ff;
+    }
+    h1
+    {
+        color:darkslateblue;
+        font-variant:small-caps;
+        border:1;
+    }
+    h2 
+    {
+        color:darkslateblue;
+        font-variant:small-caps;
+    }
+    p
+    {
+        font-family:Verdana;
+        text-indent:2em;
+        color:#FFFFFF;
+    }
+    tr
+    {
+        background-color:#3399ff;
+        color:#FFFFFF;
+    }
+    #heading
+    {
+        float:right;
+        font-variant:small-caps;   
+    }
+    #heading a:hover
+    {
+        background:yellow;
+    }
+    # content
+    {
+        clear:both;
+    }    
+    .important
+    {
+        color:DarkBlue;
+        font-variant:small-caps;
+    }
+    img 
+    {
+        position: relative;
+        border-style: solid;
+        border-width: 5px;
+    }
+    #one
+    {
+        border-color: Green;
+    }
+    two
+    {
+        border-color: Red;
+        top: 20px;
+        left:25px;        
+    }
+    #three
+    {
+        border-color: Blue;
+    }

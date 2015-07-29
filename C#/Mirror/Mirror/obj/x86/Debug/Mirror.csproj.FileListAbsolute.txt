@@ -1,0 +1,7 @@
+c:\users\ciaranke\documents\visual studio 2010\Projects\Mirror\Mirror\bin\Debug\Mirror.exe
+c:\users\ciaranke\documents\visual studio 2010\Projects\Mirror\Mirror\bin\Debug\Mirror.pdb
+c:\users\ciaranke\documents\visual studio 2010\Projects\Mirror\Mirror\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\ciaranke\documents\visual studio 2010\Projects\Mirror\Mirror\obj\x86\Debug\Mirror.exe
+c:\users\ciaranke\documents\visual studio 2010\Projects\Mirror\Mirror\obj\x86\Debug\Mirror.pdb
+c:\users\ciaranke\documents\visual studio 2010\Projects\Mirror\Mirror\bin\Debug\AbstractHello.dll
+c:\users\ciaranke\documents\visual studio 2010\Projects\Mirror\Mirror\bin\Debug\AbstractHello.pdb

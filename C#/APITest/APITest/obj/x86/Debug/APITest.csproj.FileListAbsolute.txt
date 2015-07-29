@@ -1,0 +1,5 @@
+c:\users\ciaranke\documents\visual studio 2010\Projects\APITest\APITest\bin\Debug\APITest.exe
+c:\users\ciaranke\documents\visual studio 2010\Projects\APITest\APITest\bin\Debug\APITest.pdb
+c:\users\ciaranke\documents\visual studio 2010\Projects\APITest\APITest\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\ciaranke\documents\visual studio 2010\Projects\APITest\APITest\obj\x86\Debug\APITest.exe
+c:\users\ciaranke\documents\visual studio 2010\Projects\APITest\APITest\obj\x86\Debug\APITest.pdb

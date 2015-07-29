@@ -1,0 +1,27 @@
+C:\Course\Cornflakes\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Course\Cornflakes\obj\x86\Debug\Cornflakes.DemoForm.resources
+C:\Course\Cornflakes\obj\x86\Debug\Cornflakes.Properties.Resources.resources
+C:\Course\Cornflakes\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Course\Cornflakes\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Course\Cornflakes\bin\Debug\Cornflakes.exe
+C:\Course\Cornflakes\bin\Debug\Cornflakes.pdb
+C:\Course\Cornflakes\obj\x86\Debug\Cornflakes.exe
+C:\Course\Cornflakes\obj\x86\Debug\Cornflakes.pdb
+C:\Users\MaD\Desktop\CSNET4B\Cornflakes\obj\x86\Debug\Cornflakes.exe
+C:\Users\MaD\Desktop\CSNET4B\Cornflakes\obj\x86\Debug\Cornflakes.pdb
+C:\Users\MaD\Desktop\CSNET4B\Cornflakes\bin\Debug\Cornflakes.exe
+C:\Users\MaD\Desktop\CSNET4B\Cornflakes\bin\Debug\Cornflakes.pdb
+C:\Users\MaD\Desktop\CSNET4B\Cornflakes\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\MaD\Desktop\CSNET4B\Cornflakes\obj\x86\Debug\Cornflakes.DemoForm.resources
+C:\Users\MaD\Desktop\CSNET4B\Cornflakes\obj\x86\Debug\Cornflakes.Properties.Resources.resources
+C:\Users\MaD\Desktop\CSNET4B\Cornflakes\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\MaD\Desktop\CSNET4B\Cornflakes\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\ciaranke\Documents\Visual Studio 2010\Projects\Cornflakes\obj\x86\Debug\Cornflakes.exe
+C:\Users\ciaranke\Documents\Visual Studio 2010\Projects\Cornflakes\obj\x86\Debug\Cornflakes.pdb
+C:\Users\ciaranke\Documents\Visual Studio 2010\Projects\Cornflakes\bin\Debug\Cornflakes.exe
+C:\Users\ciaranke\Documents\Visual Studio 2010\Projects\Cornflakes\bin\Debug\Cornflakes.pdb
+C:\Users\ciaranke\Documents\Visual Studio 2010\Projects\Cornflakes\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\ciaranke\Documents\Visual Studio 2010\Projects\Cornflakes\obj\x86\Debug\Cornflakes.DemoForm.resources
+C:\Users\ciaranke\Documents\Visual Studio 2010\Projects\Cornflakes\obj\x86\Debug\Cornflakes.Properties.Resources.resources
+C:\Users\ciaranke\Documents\Visual Studio 2010\Projects\Cornflakes\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\ciaranke\Documents\Visual Studio 2010\Projects\Cornflakes\obj\x86\Debug\GenerateResource.write.1.tlog

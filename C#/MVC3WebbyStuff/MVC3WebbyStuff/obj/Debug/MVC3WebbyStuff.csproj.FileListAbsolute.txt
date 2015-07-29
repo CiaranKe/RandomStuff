@@ -1,0 +1,7 @@
+c:\users\ciaranke\documents\visual studio 2010\Projects\MVC3WebbyStuff\MVC3WebbyStuff\bin\MVC3WebbyStuff.dll
+c:\users\ciaranke\documents\visual studio 2010\Projects\MVC3WebbyStuff\MVC3WebbyStuff\bin\MVC3WebbyStuff.pdb
+c:\users\ciaranke\documents\visual studio 2010\Projects\MVC3WebbyStuff\MVC3WebbyStuff\bin\EntityFramework.dll
+c:\users\ciaranke\documents\visual studio 2010\Projects\MVC3WebbyStuff\MVC3WebbyStuff\bin\EntityFramework.xml
+c:\users\ciaranke\documents\visual studio 2010\Projects\MVC3WebbyStuff\MVC3WebbyStuff\obj\Debug\ResolveAssemblyReference.cache
+c:\users\ciaranke\documents\visual studio 2010\Projects\MVC3WebbyStuff\MVC3WebbyStuff\obj\Debug\MVC3WebbyStuff.dll
+c:\users\ciaranke\documents\visual studio 2010\Projects\MVC3WebbyStuff\MVC3WebbyStuff\obj\Debug\MVC3WebbyStuff.pdb

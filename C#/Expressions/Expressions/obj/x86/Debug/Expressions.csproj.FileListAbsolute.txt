@@ -1,0 +1,5 @@
+c:\users\ciaranke\documents\visual studio 2010\Projects\Expressions\Expressions\bin\Debug\Expressions.exe
+c:\users\ciaranke\documents\visual studio 2010\Projects\Expressions\Expressions\bin\Debug\Expressions.pdb
+c:\users\ciaranke\documents\visual studio 2010\Projects\Expressions\Expressions\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\ciaranke\documents\visual studio 2010\Projects\Expressions\Expressions\obj\x86\Debug\Expressions.exe
+c:\users\ciaranke\documents\visual studio 2010\Projects\Expressions\Expressions\obj\x86\Debug\Expressions.pdb

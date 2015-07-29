@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../Mirror/AbstractHello/Hello.cs">
+    <Files>
+      <File FileName="../ConfigDep/ConfigDep/Program.cs" Line="1" Column="1" />
+      <File FileName="../ConsoleApplication2/ConsoleApplication2/Program.cs" Line="1" Column="1" />
+      <File FileName="../ConsoleApplication3/ConsoleApplication3/Program.cs" Line="1" Column="1" />
+      <File FileName="../Mirror/AbstractHello/Hello.cs" Line="9" Column="6" />
+      <File FileName="../Mirror/ConcreateHello/HelloA.cs" Line="1" Column="1" />
+      <File FileName="../Mirror/ConcreateHello/HelloB.cs" Line="8" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,6 @@
+c:\users\ciaranke\documents\visual studio 2010\Projects\Calculations\Calculations\bin\Debug\Calculations.dll
+c:\users\ciaranke\documents\visual studio 2010\Projects\Calculations\Calculations\bin\Debug\Calculations.pdb
+c:\users\ciaranke\documents\visual studio 2010\Projects\Calculations\Calculations\obj\Debug\ResolveAssemblyReference.cache
+c:\users\ciaranke\documents\visual studio 2010\Projects\Calculations\Calculations\obj\Debug\Calculations.dll
+c:\users\ciaranke\documents\visual studio 2010\Projects\Calculations\Calculations\obj\Debug\Calculations.pdb
+C:\Users\ciaranke\Documents\Visual Studio 2010\Projects\Calculations\Calculations\bin\Debug\Calculations.XML

@@ -1,0 +1,5 @@
+c:\users\ciaranke\documents\visual studio 2010\Projects\MVCFromScratch\MVCFromScratch\bin\MVCFromScratch.dll
+c:\users\ciaranke\documents\visual studio 2010\Projects\MVCFromScratch\MVCFromScratch\bin\MVCFromScratch.pdb
+c:\users\ciaranke\documents\visual studio 2010\Projects\MVCFromScratch\MVCFromScratch\obj\Debug\ResolveAssemblyReference.cache
+c:\users\ciaranke\documents\visual studio 2010\Projects\MVCFromScratch\MVCFromScratch\obj\Debug\MVCFromScratch.dll
+c:\users\ciaranke\documents\visual studio 2010\Projects\MVCFromScratch\MVCFromScratch\obj\Debug\MVCFromScratch.pdb

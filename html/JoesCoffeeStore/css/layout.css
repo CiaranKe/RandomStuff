@@ -1,0 +1,50 @@
+@font-face { font-family: HeaderFont; src: url(../fonts/Lobster_1.3.otf);}
+body { width: 1000px; margin-left: auto; margin-right: auto; font-family: Verdana, monospace; }
+    body > header { margin-bottom: 20px; font-family: HeaderFont, monospace; text-shadow: 5px 5px 5px #8F6B5D}
+header { font-weight: bold; }
+label { display: inline-block; float: left; clear: left; width: 250px; text-align: right; margin-right: 50px; margin-bottom: 10px; }
+input { display: inline-block; float: left; }
+fieldset {  border-color: #603813; }
+fieldset > legend { color: #603813; }
+address { display: inline; }
+footer { clear: both; width: 100%; background-color: #5c5045; margin: 20px 0 20px; padding: 5px; /* -ms-transform: rotate(7deg);  -webkit-transform: rotate(7deg);  transform: rotate(7deg); */}
+nav.backgroundgradient  > ul { list-style: none; display: inline-block; }
+nav.backgroundgradient  > ul > li { display: inline-block; }
+nav.backgroundgradient  > ul > li > a { text-decoration: none; font-weight: bold; font-size: 20px; color: white; padding-right: 20px; }
+.coffeebestsellers { height: 100%; width: 700px; float: left; margin-bottom: 20px; }
+.productarticle { width: 33%; display: inline; float: left; }
+.productarticle > figure > img { width: 150px; height: 150px; }
+.productarticlename > a { color: #603813; font-size: 15px; margin-bottom: 3px;     font-weight: bold; text-decoration: none; margin-left: 50px; }
+.productarticleprice { color: #009900; font-size: 25px; margin-bottom: 3px; font-weight: bold; text-decoration: none; margin-left: 50px; }
+.productarticlefigure {float: left;}
+    .productarticlefigure > img {width: 150px; height: 150px;}
+    .productarticlefigure > figcaption {font-family: Verdana, monospace; font-size: 10px; font-weight: bold;}
+.productarticlecontent {float: right; width: 600px;}
+.addtocartbutton { margin-left: 50px; }
+.backgroundgradient {color: #FFFFFF;background: -webkit-linear-gradient(left, #603813, #341c05); background: -o-linear-gradient(right,#603813, #341c05); background: -moz-linear-gradient(right, #603813, #341c05); background: linear-gradient(to right,#603813, #341c05); }
+.smalltext { font-size: 10px; }
+.blockheader { clear: both; font-family: HeaderFont, monospace; font-size: 30px;}
+.headerlogo { float: left; margin-right: 10px; }
+   .headerlogo > img { height: 60px; margin-left: 10px;  }
+.searchbox { float: right; padding: 5px; margin: 10px 5px; width: 200px; }
+.addtocartbutton {color: #FFFFFF; cursor: pointer; padding: 4px 25px; background: #603813; border: 1px solid #381f09; -moz-border-radius: 8px;
+    -webkit-border-radius: 8px; border-radius: 8px; -webkit-box-shadow: 0 0 4px rgba(0,0,0, .75); -moz-box-shadow: 0 0 4px rgba(0,0,0, .75); box-shadow: 0 0 4px rgba(0,0,0, .75)
+    color: #f3f3f3; font-size: 0.8em; width: 80px;}
+    .addtocartbutton:hover, .addtocartbutton:focus {background-color: #512c0a; -webkit-box-shadow: 0 0 1px rgba(0,0,0, .75); -moz-box-shadow: 0 0 1px rgba(0,0,0, .75); box-shadow: 0 0 1px rgba(0,0,0, .75)}
+.productarticlewidedescription {width: 700px;}
+.productarticlewidecontent > .productarticleprice { margin-left: 0 !important;}
+#mainheader { height: 80px; }
+#headername { font-size: 40px; color: #603813; padding: 15px; margin: 8px 0; font-weight: bold; }
+#welcomeimage { float: left; width: 699px; }
+    #welcomeimage > img { width: 700px; }
+#coffeeofthemonth { float: right; width: 300px; }
+    #coffeeofthemonth > img { width: 300px; height: 257px; }
+#welcometext { float: left; width: 70%; font-size: 12px; margin-top: 20px; margin-bottom: 20px; /*column-count:2; -webkit-column-count:2;*/
+    -webkit-column-width: 200px; -moz-column-width: 200px; column-width: 200px; -webkit-column-gap: 40px; -moz-column-gap: 40px; column-gap: 40px;}
+    #welcometext > header { color: #603813; font-size: 15px; font-weight: bold; margin-bottom: 3px; }
+#events, #shoppingCart { float: right; margin-top: 20px; margin-bottom: 20px;}
+    #events > header { margin-left: 10px; color: #603813; font-size: 15px; margin-bottom: 3px; font-weight: bold; }
+    #events > ul { list-style: none; } #events > ul > li { margin-bottom: 3px; }
+#bestsellers { height: 100%; width: 700px; float: left; margin-bottom: 20px; }
+#map{width: 700px; height: 400px;}
+#driving-directions {width:700px;}

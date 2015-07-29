@@ -1,0 +1,30 @@
+C:\Course\XMLWork\bin\Debug\XMLWork.exe
+C:\Course\XMLWork\bin\Debug\XMLWork.pdb
+C:\Course\XMLWork\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Course\XMLWork\obj\x86\Debug\MainWindow.baml
+C:\Course\XMLWork\obj\x86\Debug\MainWindow.g.cs
+C:\Course\XMLWork\obj\x86\Debug\App.g.cs
+C:\Course\XMLWork\obj\x86\Debug\XMLWork_MarkupCompile.cache
+C:\Course\XMLWork\obj\x86\Debug\XMLWork.g.resources
+C:\Course\XMLWork\obj\x86\Debug\XMLWork.Properties.Resources.resources
+C:\Course\XMLWork\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Course\XMLWork\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Course\XMLWork\obj\x86\Debug\XMLWork.exe
+C:\Course\XMLWork\obj\x86\Debug\XMLWork.pdb
+C:\Course\XMLWork\obj\x86\Debug\XMLWork_Content.g.cs
+C:\Users\MaD\Desktop\CSNET4B\XMLWork\obj\x86\Debug\XMLWork.exe
+C:\Users\MaD\Desktop\CSNET4B\XMLWork\obj\x86\Debug\XMLWork.pdb
+C:\Users\ciaranke\Documents\Visual Studio 2010\Projects\XMLWork\obj\x86\Debug\XMLWork.exe
+C:\Users\ciaranke\Documents\Visual Studio 2010\Projects\XMLWork\obj\x86\Debug\XMLWork.pdb
+C:\Users\ciaranke\Documents\Visual Studio 2010\Projects\XMLWork\bin\Debug\XMLWork.exe
+C:\Users\ciaranke\Documents\Visual Studio 2010\Projects\XMLWork\bin\Debug\XMLWork.pdb
+C:\Users\ciaranke\Documents\Visual Studio 2010\Projects\XMLWork\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\ciaranke\Documents\Visual Studio 2010\Projects\XMLWork\obj\x86\Debug\MainWindow.baml
+C:\Users\ciaranke\Documents\Visual Studio 2010\Projects\XMLWork\obj\x86\Debug\MainWindow.g.cs
+C:\Users\ciaranke\Documents\Visual Studio 2010\Projects\XMLWork\obj\x86\Debug\App.g.cs
+C:\Users\ciaranke\Documents\Visual Studio 2010\Projects\XMLWork\obj\x86\Debug\XMLWork_Content.g.cs
+C:\Users\ciaranke\Documents\Visual Studio 2010\Projects\XMLWork\obj\x86\Debug\XMLWork_MarkupCompile.cache
+C:\Users\ciaranke\Documents\Visual Studio 2010\Projects\XMLWork\obj\x86\Debug\XMLWork.g.resources
+C:\Users\ciaranke\Documents\Visual Studio 2010\Projects\XMLWork\obj\x86\Debug\XMLWork.Properties.Resources.resources
+C:\Users\ciaranke\Documents\Visual Studio 2010\Projects\XMLWork\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\ciaranke\Documents\Visual Studio 2010\Projects\XMLWork\obj\x86\Debug\GenerateResource.write.1.tlog

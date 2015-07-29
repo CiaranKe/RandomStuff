@@ -1,0 +1,7 @@
+c:\users\ciaranke\documents\visual studio 2010\Projects\Mirror\ConcreateHello\bin\Debug\ConcreateHello.dll
+c:\users\ciaranke\documents\visual studio 2010\Projects\Mirror\ConcreateHello\bin\Debug\ConcreateHello.pdb
+c:\users\ciaranke\documents\visual studio 2010\Projects\Mirror\ConcreateHello\bin\Debug\AbstractHello.dll
+c:\users\ciaranke\documents\visual studio 2010\Projects\Mirror\ConcreateHello\bin\Debug\AbstractHello.pdb
+c:\users\ciaranke\documents\visual studio 2010\Projects\Mirror\ConcreateHello\obj\Debug\ResolveAssemblyReference.cache
+c:\users\ciaranke\documents\visual studio 2010\Projects\Mirror\ConcreateHello\obj\Debug\ConcreateHello.dll
+c:\users\ciaranke\documents\visual studio 2010\Projects\Mirror\ConcreateHello\obj\Debug\ConcreateHello.pdb

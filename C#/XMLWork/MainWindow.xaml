@@ -1,0 +1,24 @@
+﻿<Window x:Class="XMLWork.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="This is a demonstration of XML processing in .NET" OverridesDefaultStyle="False" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" Height="697" Width="632" AllowsTransparency="True" WindowStyle="None" Top="20" Name="XMLDemo" WindowStartupLocation="CenterScreen">
+    <Grid IsManipulationEnabled="True">
+        <ScrollViewer Name="myScroll" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto" HorizontalAlignment="Right" Width="465" Height="634" VerticalAlignment="Bottom" Margin="0,0,133,12">
+            <Grid Name="Grid">
+                <TextBlock Name="Display" TextWrapping="Wrap" MaxWidth="{Binding ElementName=Grid, Path=ActualWidth}" FontFamily="Bradley Hand ITC" FontSize="16" FontWeight="Black" Foreground="White" Margin="0,6,0,0">                
+                    Display Area
+                </TextBlock>
+            </Grid>
+        </ScrollViewer>
+        <Button Content="Read XML" Height="24" HorizontalAlignment="Left" Margin="513,12,0,0" Name="ReadXML" VerticalAlignment="Top" Width="85" Click="ReadXML_Click" FontFamily="Bradley Hand ITC" FontSize="14" FontWeight="Bold" UseLayoutRounding="False" Opacity="0.7" />
+        <Button Content="Write XML" Height="24" HorizontalAlignment="Left" Margin="513,42,0,0" Name="WriteXML" VerticalAlignment="Top" Width="85" FontFamily="Bradley Hand ITC" FontSize="14" FontWeight="Bold" UseLayoutRounding="False" Opacity="0.7" Click="WriteXML_Click" />
+        <Button Content="Parse XML" Height="24" HorizontalAlignment="Left" Margin="513,72,0,0" Name="ParseXML" VerticalAlignment="Top" Width="85" FontFamily="Bradley Hand ITC" FontSize="14" FontWeight="Bold" UseLayoutRounding="False" Opacity="0.7" Click="ParseXML_Click" />
+        <Button Content="XPath" Height="24" HorizontalAlignment="Left" Margin="513,102,0,0" Name="XPath" VerticalAlignment="Top" Width="85" FontFamily="Bradley Hand ITC" FontSize="14" FontWeight="Bold" UseLayoutRounding="False" Opacity="0.7" Click="XPath_Click" />
+        <Button Content="XPathDoc" Height="24" HorizontalAlignment="Left" Margin="513,132,0,0" Name="XPathDoc" VerticalAlignment="Top" Width="85" FontFamily="Bradley Hand ITC" FontSize="14" FontWeight="Bold" UseLayoutRounding="False" Opacity="0.7" />
+        <Button Content="XSLT" Height="24" HorizontalAlignment="Left" Margin="513,162,0,0" Name="XSLT" VerticalAlignment="Top" Width="85" FontFamily="Bradley Hand ITC" FontSize="14" FontWeight="Bold" UseLayoutRounding="False" Opacity="0.7" Click="XSLT_Click" />
+        <Button Content="Exit" Height="24" HorizontalAlignment="Left" Margin="513,192,0,0" Name="Exit" VerticalAlignment="Top" Width="85" Click="Exit_Click" FontFamily="Bradley Hand ITC" FontSize="14" FontWeight="Bold" UseLayoutRounding="False" Opacity="0.7" />
+    </Grid>
+    <Window.Background>
+        <ImageBrush ImageSource="/XMLWork;component/background.png" Stretch="None" TileMode="None" />
+    </Window.Background>
+</Window>
