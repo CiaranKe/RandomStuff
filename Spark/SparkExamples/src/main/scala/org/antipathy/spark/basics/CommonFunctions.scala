@@ -1,8 +1,6 @@
-package org.antipathy.spark0
+package org.antipathy.spark.basics
 
-import org.apache.spark.storage.StorageLevel
-import org.apache.spark.{SparkContext, SparkConf}
-import org.apache.spark.rdd.{RDD, PairRDDFunctions}
+import org.apache.spark.{SparkConf, SparkContext}
 /**
  * Created by fluffy on 28/07/15.
  */

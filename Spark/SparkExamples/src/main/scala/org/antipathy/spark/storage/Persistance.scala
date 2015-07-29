@@ -1,7 +1,7 @@
-package org.antipathy.spark
+package org.antipathy.spark.storage
 
 import org.apache.spark.storage.StorageLevel
-import org.apache.spark.{SparkContext, SparkConf}
+import org.apache.spark.{SparkConf, SparkContext}
 
 /**
  * Created by fluffy on 28/07/15.

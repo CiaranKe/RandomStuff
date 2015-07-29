@@ -1,4 +1,4 @@
-package org.antipathy.spark
+package org.antipathy.spark.basics
 
 import org.apache.spark.SparkContext._
 import org.apache.spark._

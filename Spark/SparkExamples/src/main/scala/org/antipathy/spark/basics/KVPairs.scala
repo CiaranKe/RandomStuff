@@ -1,8 +1,7 @@
-package org.antipathy.spark
+package org.antipathy.spark.basics
 
 import org.apache.spark.api.java.StorageLevels
-import org.apache.spark.{SparkContext, SparkConf}
-import org.apache.spark.rdd.PairRDDFunctions
+import org.apache.spark.{SparkConf, SparkContext}
 
 /* if reduceByKey not showing */
 import org.apache.spark.SparkContext._
