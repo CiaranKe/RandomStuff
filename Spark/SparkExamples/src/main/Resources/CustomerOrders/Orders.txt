@@ -1,0 +1,10 @@
+1,1,SatNav
+2,4,Laptop
+3,5,Car
+4,3,Pen
+5,2,Hammer
+6,3,Brick
+7,1,Phone
+8,4,Cheese
+9,1,ChessBoard
+10,1,Hookers
