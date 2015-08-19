@@ -1,7 +1,6 @@
 package org.antipathy.spark.AccumulatorsAndBroadcastVariables
 
 import java.io.StringReader
-
 import org.apache.spark.rdd.RDD
 import org.apache.spark.{SparkContext, SparkConf}
 import au.com.bytecode.opencsv.CSVReader
