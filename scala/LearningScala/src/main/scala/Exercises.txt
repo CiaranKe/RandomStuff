@@ -1,0 +1,21 @@
+1. Write a program that asks the user for thier name and prints ‘Hello <name>.
+2. Modify the previous program such that only the users Jim and John are greeted with their names, using if as an expression.
+3. Write a program that asks the user for a number n and prints the sum of the numbers 1 to n.
+4. Convert the above program to FizzBuzz.
+5. Write a function that returns the largest element in a scala list.
+6. Write a function that computes the sum of a Java list.
+7. Write a function that concatenates two lists. :::natingly taking elements, e.g. [a,b,c], [1,2,3] → [a,1,b,2,c,3].
+8. re-write the following as a single line of code  (hint: use filter and foreach)
+
+		val filesHere = (new File(".")).listFiles()
+		  for (file <- filesHere if file.getName.endsWith("iml")) {
+		    println(file)
+		  }
+
+9. Use Pattern matching to identify an object's type and print an associated string. these are:
+		Type A => print "First" 
+		Type B => print "Second"
+		Type C => print "Third"
+		Type D => print "Last"
+10. Without compiling, what is the output of :  println("BlackMagic\n" * 2), why? 
+ 
